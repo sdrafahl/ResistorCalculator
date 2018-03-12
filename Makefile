@@ -1,2 +1,4 @@
 All:
-	kotlinc hello.kt -include-runtime -d hello.jar
+	kotlinc main.kt -include-runtime -d main.jar
+Run:
+	java -jar main.kt
